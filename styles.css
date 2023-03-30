@@ -1,0 +1,12 @@
+*{
+    border: 2px solid rgb(200, 74, 204);
+}
+body {
+    background-image: url("https://img.freepik.com/fotos-premium/fondo-grunge-blanco-negro-textura-pared-piedra-antigua-o-espacio-copia-pizarra_124507-10565.jpg");
+    background-size: cover;
+}
+header {
+    border: 2px solid rgb(200, 74, 204);
+}
+
+
