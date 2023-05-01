@@ -1,0 +1,45 @@
+.contacto {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-family:"Roboto Mono", monospace; ;
+  }
+  
+  .contacto h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contacto form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .contacto label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .contacto input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .contacto input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  

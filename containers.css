@@ -5,9 +5,9 @@
     grid-auto-flow: row;
     grid-template-areas:
       "header header header"
-      "bodegoncito bodegoncito bodegoncito"
-      "carrusel carrusel carrusel"
-      "carrusel carrusel carrusel"
+      "banner banner banner"
+      "carousel carousel carousel"
+      "carousel carousel carousel"
       "nosotros nosotros nosotros"
       "foto foto foto"
       "foto foto foto"
@@ -31,8 +31,10 @@
   }
   
   .header { grid-area: header; }
+
+  .banner { grid-area: banner; }
   
-  .carrusel { grid-area: carrusel; }
+  .carousel { grid-area: carousel; }
   
   .nosotros { grid-area: nosotros; }
   
@@ -45,8 +47,6 @@
   .platos-del-dia { grid-area: platos-del-dia; }
   
   .vegetariano { grid-area: vegetariano; }
-  
-  .bodegoncito { grid-area: bodegoncito; }
   
   .contacto { grid-area: contacto; }
   

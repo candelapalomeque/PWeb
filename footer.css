@@ -1,0 +1,25 @@
+.info {
+    background-color: white;
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .info h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .info .subtitulo {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .info .margen-grande {
+    height: 10px;
+  }
+  
+  .info .creditos {
+    font-size: 12px;
+  }
+  

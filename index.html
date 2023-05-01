@@ -1,64 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bodegones</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+	<title>Bodegón</title>
 
-<body>
-    <header>
-        <select name="Menu">
-            <option value="Menu">Menu</option>
-            <option value="Bodegones">Bodegones</option>
-            <option value="Platos Recomendados">Platos Recomendados</option>
-            <option value="Contacto">Contacto</option>
-            <option value="Nosotros">Nosotos</option>
-        </select>
+	<link rel="stylesheet" href="headers.css">
+	<link rel="stylesheet" href="banner.css">
+	<link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="nosotros.css">
+    <link rel="stylesheet" href="foto.css">
+    <link rel="stylesheet" href="comidas.css">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="horarios.css">
+    <link rel="stylesheet" href="suscripcion.css">
+    <link rel="stylesheet" href="footer.css">
 
-    </header>
-    <main>
-        <h1 style="font-size:300%; font-family: Tahoma;">
-            <p style="text-align:center; color:#DD6C0F;">BODEGONCITOS</p>
-        </h1>
-
-        <p style="color:white;">Amantes del buen comer. En esta página podrán encontrar los mejores bodegoncitos de
-            Buenos Aires y nuestro top 10 de platos. Dejanos alguna recomendación en el formulario que
-            aparece en la parte de contacto en el menú asi vamos! </p>
-        <p style="color:white;">Atte: LOS MUCHACHOS</p>
-        <img src="https://1.bp.blogspot.com/-wQgl03jtPeQ/XUSiZvdjmpI/AAAAAAABFSs/5IjidiyyqWQH07rmaNl4NyHcz_8OEx9vQCLcBGAs/s1600/WhatsApp%2BImage%2B2019-08-02%2Bat%2B14.21.39.jpeg"
-            alt="los muchachos en el bodegon" style="display:block; margin:auto;" width="480" height="380">
-
-        <div class="image-container">
-            <div class="image">
-                <img src="https://resizer.glanacion.com/resizer/DX1-dyjtqe3efPEahil_dwkYeuQ=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/VLWFAANIWBGPFO4CSUHS7RYVVQ.jpg"
-                    alt="Imagen 1">
-                <p class="caption">Milanga Napo</p>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+              <div class="header-top">
+                <div class="logo">Bodegón</div>
+                <div class="login-btn">Log in</div>
+              </div>
+              <div class="header-bottom">
+                <hr>
+                <div class="nav-buttons">
+                  <a href="#">Inicio</a>
+                  <a href="#">Acerca de</a>
+                  <a href="#">Opiniones</a>
+                  <a href="#">Vacantes</a>
+                  <a href="#">Portafolio</a>
+                  <a href="#">Foro</a>
+                  <a href="#">Members</a>
+                  <a href="#">Menús</a>
+                </div>
+              </div>
             </div>
-            <div class="image">
-                <img src="https://www.cronista.com/files/image/471/471165/62e1940380955.png" alt="Imagen 2">
-                <p class="caption">Pasta de Campeones</p>
-            </div>
-            <div class="image">
-                <img src="https://vinomanos.com/wp-content/uploads/2018/06/Bodegones-de-Buenos-Aires.jpg"
-                    alt="Imagen 3">
-                <p class="caption">El matador</p>
-            </div>
-    </main>
-    <footer>
-        <p>Contacto: bodegones@gmail.com</p>
-        <ul>
-            <!--Como todavia no tengo links pongo los de las paginas-->
-            <li><a href="https://es-la.facebook.com/">Facebook</a></li>
-            <li><a href="https://twitter.com/?lang=es">Twitter</a></li>
-            <li><a href="https://www.instagram.com/">Instagram</a></li>
-        </ul>
-        <p>Derechos de autor © 2023 Bodegones, Todos los derechos reservados.</p>
-    </footer>
+          </header>          
+       <main>
+        <div id="banner">
+            <h2>El Goloso</h2>
+            <p>Verdaderos clásicos</p>
+        </div>
+        
+        <div id="carousel">
+            <img src="https://www.virarobodegon.com.ar/wp-content/uploads/2022/09/locro-criollo-argentino-a-domicilio.jpg" alt="Locro">
+            <img src="https://www.virarobodegon.com.ar/wp-content/uploads/2022/09/pastas-fideos-comidas-delivery.jpg" alt="Pasta">
+            <img src="https://www.virarobodegon.com.ar/wp-content/uploads/2022/09/minutas-pollo-pechuga-comidas-delivery.jpg" alt="Pollo">
+        </div>
 
-</body>
-
-</html>
+        <div class="nosotros">
+            <h1>Sobre nosotros</h1>
+            <h2>Historia</h2>
+            <p>Comenzamos nuestro negocio en el año 2023 con un objetivo en mente: entregar una experiencia gastronómica única en CABA. Gracias a nuestra experiencia y dedicación, hemos logrado convertirnos en maestros de la industria. Entregando platos frescos, sustanciosos e inolvidables.</p>
+          </div>
+          
+    <div id="foto">
+        <img src="https://okdiario.com/img/2020/11/17/comer-cantabria-655x368.jpg" alt="Foto">
+    </div>
+    <div class="comidas">
+        <h1>Lo nuestro</h2>
+        <h2>Platos para todos los gustos</p>
+        <div class="columnas">
+          <div class="columna">
+            <h3>Los especiales</h3>
+            <p>El que sabe, sabe. Y nuestro chef sabe muchisimo! Todas las semanas 3 platillos especiales con todo el sabor. ¡No olvides preguntar por nuestras guarniciones especiales!</p>
+          </div>
+          <div class="columna">
+            <h3>Sopa del día</h3>
+            <p>Todos los dias una sopa con ingredientes frescos que te va a volar la cabeza. Lo mejor para entrar en calor este invierno.</p>
+          </div>
+          <div class="columna">
+            <h3>Delicias Veganas</h3>
+            <p>Acá nadie se queda afuera. Tenemos una selección de platos veganos que te van a encantar!</p>
+          </div>
+        </div>
+      </div>
+      <div class="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre...">
+          
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" placeholder="Escribe tu email...">
+          
+          <label for="asunto">Asunto:</label>
+          <input type="text" id="asunto" name="asunto" placeholder="Escribe el asunto...">
+          
+          <label for="mensaje">Mensaje:</label>
+          <input type="text" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje...">
+          
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+      <div class="horarios">
+        <div class="image">
+          <img src="https://www.lanacion.com.ar/resizer/AapkmZnlJ1QlHU91S4-lUOR892Y=/1920x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/S6OIWMN3QZHTLP4C6MWT3X7F7E.JPG" alt="Foto del local">
+        </div>
+        <div class="title">
+          <h2>Dirección</h2>
+          <p>Siempre viva 742</p>
+        </div>
+        <div class="title">
+          <h2>Horarios de apertura</h2>
+          <p>Cena con nosotros o pedí para llevar</p>
+          <p>Lunes - Sábado: 9:00 a. m. - 5:00 p. m.</p>
+          <p>Domingo: 11:00 a. m. - 3:00 p. m.</p>
+        </div>
+        <div class="button">
+          <a href="tel:555-1234">Llamanos</a>
+        </div>
+      </div>
+            
+      <div class="suscripcion">
+        <h2>Suscripción</h2>
+        <form>
+          <input type="email" id="email" name="email" placeholder="Ingresá tu correo electrónico" required>
+          <button type="submit">Suscribirse</button>
+        </form>
+      </div>
+      
+          
+    </main> 
+    <footer class="info">
+        <div class="container">
+          <h2>El Goloso</h2>
+          <p class="subtitulo">info@elgoloso.com</p>
+          <div class="margen-grande"></div>
+          <p class="creditos">©2023 por Bodegoncitos. Creado con mucha paciencia.</p>
+        </div>
+      </footer>
+      
+    </body>
+   
+    </html>
+    
