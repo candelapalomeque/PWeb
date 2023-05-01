@@ -1,0 +1,20 @@
+.nosotros {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .nosotros h1 {
+    margin-top: 0;
+    font-size: 40px;
+  }
+  
+  .nosotros h2 {
+    font-size: 24px;
+  }
+  
+  .nosotros p {
+    font-size: 18px;
+  }
+  

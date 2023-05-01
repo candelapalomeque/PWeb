@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bodegon</title>
+    <link rel="stylesheet" href="containers.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="bodegon.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <div class="logo">
+            <h1>Bodegon</h1>
+          </div>
+          <div class="login">
+            <button>Log In</button>
+          </div>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Opiniones</a></li>
+            <li><a href="#">Vacantes</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Foro</a></li>
+            <li><a href="#">Members</a></li>
+            <li><a href="#">Menus</a></li>
+          </ul>
+        </div>
+        <div class="bodegon">
+            <h1>Bodegon</h1>
+            <p>Los verdaderos clásicos</p>
+        </div>
+        <div class="carrusel">
+            <div><img src="https://www.virarobodegon.com.ar/wp-content/uploads/2022/09/locro-criollo-argentino-a-domicilio.jpg"></div>
+
+            <div><img src="https://www.virarobodegon.com.ar/wp-content/uploads/2022/09/pastas-fideos-comidas-delivery.jpg"></div>
+            <div><img src="https://www.virarobodegon.com.ar/wp-content/uploads/2022/09/minutas-pollo-pechuga-comidas-delivery.jpg"></div>
+        </div>
+        <div class="nosotros" style="background-color: black; color: white; text-align: center;">
+            <h1 style="margin-top: 0;">Sobre nosotros</h1>
+            <h2>Historia</h2>
+            <p>Comenzamos nuestro negocio en el año 2023 con un objetivo en mente: entregar una experiencia gastronómica única en CABA. Gracias a nuestra experiencia y dedicación, hemos logrado convertirnos en maestros de la industria. Entregando platos frescos, sustanciosos e inolvidables.</p>
+          </div>
+        <div class="foto"></div>
+        <div class="comida"></div>
+        <div class="especialidad"></div>
+        <div class="platos-del-dia"></div>
+        <div class="vegetariano"></div>
+        <div class="contacto"></div>
+        <div class="mapa"></div>
+        <div class="pic"></div>
+        <div class="horarios"></div>
+        <div class="suscripcion"></div>
+      </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.carrusel').slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true
+  });
+});
+
+</script>
+
+</html>
+
+  

@@ -1,0 +1,60 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header"
+      "bodegoncito bodegoncito bodegoncito"
+      "carrusel carrusel carrusel"
+      "carrusel carrusel carrusel"
+      "nosotros nosotros nosotros"
+      "foto foto foto"
+      "foto foto foto"
+      "comida comida comida"
+      "comida comida comida"
+      "especialidad platos-del-dia vegetariano"
+      "especialidad platos-del-dia vegetariano"
+      "especialidad platos-del-dia vegetariano"
+      "contacto contacto contacto"
+      "contacto contacto contacto"
+      "contacto contacto contacto"
+      "mapa mapa mapa"
+      "pic pic pic"
+      "pic pic pic"
+      "pic pic pic"
+      "horarios horarios horarios"
+      "horarios horarios horarios"
+      "suscripcion suscripcion suscripcion"
+      "suscripcion suscripcion suscripcion"
+      "suscripcion suscripcion suscripcion";
+  }
+  
+  .header { grid-area: header; }
+  
+  .carrusel { grid-area: carrusel; }
+  
+  .nosotros { grid-area: nosotros; }
+  
+  .foto { grid-area: foto; }
+  
+  .comida { grid-area: comida; }
+  
+  .especialidad { grid-area: especialidad; }
+  
+  .platos-del-dia { grid-area: platos-del-dia; }
+  
+  .vegetariano { grid-area: vegetariano; }
+  
+  .bodegoncito { grid-area: bodegoncito; }
+  
+  .contacto { grid-area: contacto; }
+  
+  .mapa { grid-area: mapa; }
+  
+  .pic { grid-area: pic; }
+  
+  .horarios { grid-area: horarios; }
+  
+  .suscripcion { grid-area: suscripcion; }
+  

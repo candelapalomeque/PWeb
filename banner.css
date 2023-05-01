@@ -1,0 +1,19 @@
+#banner {
+	background-color: #F5F5DC;
+	text-align: center;
+	padding: 50px 0;
+}
+
+#banner h2 {
+	margin: 0;
+	font-size: 65px;
+	font-weight: bold;
+	color: black;
+}
+
+#banner p {
+	margin: 0;
+	font-size: 18px;
+	color: #464545;
+	margin-top: 20px;
+}

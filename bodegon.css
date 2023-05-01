@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Century Ghotic", monospace;
+  }
+  .bodegon {
+    text-align: center;
+  }
+  .bodegon h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+  }
+  .bodegon p {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+  }
+  .bodegon {
+    background-color: #fff4e6; 
+  }
+  .carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carrusel div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .carrusel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
