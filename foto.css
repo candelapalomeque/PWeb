@@ -2,6 +2,7 @@
     width: 898px; 
     height: 400px; 
     position: relative;
+    align-items: center;
   }
   
   #foto img {
