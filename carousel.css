@@ -1,16 +1,19 @@
 #carousel {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-  }
-  
-  #carousel img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  #carousel img:hover {
-    transform: scale(1.1);
-  }
-  
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap; /*evita que las imágenes se salten de línea*/
+  position:relative
+}
+
+#carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+#carousel img:hover {
+  transform: scale(1.1);
+}
+

@@ -1,0 +1,44 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header"
+      "banner banner banner"
+      "carousel carousel carousel"
+      "carousel carousel carousel"
+      "nosotros nosotros nosotros"
+      "foto foto foto"
+      "foto foto foto"
+      "comidas comidas comidas"
+      "comidas comidas comidas"
+      "contacto contacto contacto"
+      "contacto contacto contacto"
+      "horarios horarios horarios"
+      "horarios horarios horarios"
+      "horarios horarios horarios"
+      "suscripcion suscripcion suscripcion"
+      "footer footer footer";
+  }
+  
+  .header { grid-area: header; }
+  
+  .banner { grid-area: banner; }
+  
+  .carousel { grid-area: carousel; }
+  
+  .nosotros { grid-area: nosotros; }
+  
+  .foto { grid-area: foto; }
+  
+  .comidas { grid-area: comidas; }
+  
+  .contacto { grid-area: contacto; }
+  
+  .horarios { grid-area: horarios; }
+  
+  .suscripcion { grid-area: suscripcion; }
+  
+  .footer { grid-area: footer; }
+  

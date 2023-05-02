@@ -7,6 +7,7 @@
 	<title>Bodegón</title>
 
   <!--Links a los CSS-->
+  <link rel="stylesheet" href="container.css">
 	<link rel="stylesheet" href="headers.css">
 	<link rel="stylesheet" href="banner.css">
 	<link rel="stylesheet" href="carousel.css">
@@ -23,11 +24,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     </head>
     <body>
+      <div class="container"></div>
         <header>
-            <div class="container">
+            
               <div class="header-top">
                 <div class="logo">Bodegón</div>
                 <div class="login-btn">Log in</div>
@@ -45,7 +48,7 @@
                   <a href="#">Menús</a>
                 </div>
               </div>
-            </div>
+            
           </header>          
        <main>
         <div id="banner">
@@ -143,14 +146,15 @@
           
     </main> 
     <footer class="info">
-        <div class="container">
-          <h2>El Goloso</h2>
-          <p class="subtitulo">info@elgoloso.com</p>
-          <div class="margen-grande"></div>
-          <p class="creditos">©2023 por Bodegoncitos. Creado con mucha paciencia.</p>
-        </div>
+      <div class="info">
+        <h2>El Goloso</h2>
+        <p class="email">info@elgoloso.com</p>
+        <div class="margen-grande"></div>
+        <p class="creditos">©2023 por Bodegoncitos. Creado con mucha paciencia.</p>
+      </div>
+      
+        
       </footer>
-
     <!--Codigo para el carrusel automatico--> 
       <script>
         $(document).ready(function(){
