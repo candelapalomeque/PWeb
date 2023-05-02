@@ -18,6 +18,7 @@ header {
   .logo {
     font-size: 2rem;
     font-weight: bold;
+    margin-left: 20px;
   }
   
   .login-btn {
@@ -26,6 +27,7 @@ header {
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+    margin-right: 20px;
   }
   
   .header-bottom {
@@ -61,6 +63,7 @@ header {
     font-size: 0.7rem;
     font-weight: bold;
     cursor: pointer;
+    margin-bottom: 30px;
   }
   
   .nav-buttons a:hover {

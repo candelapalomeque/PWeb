@@ -10,12 +10,14 @@
     font-size: 2em;
     margin: 0;
     padding: 0;
+    margin-top: 20px;
+    font-weight: bold;
   }
   
   .comidas h2 {
     font-size: 1em;
     text-align: center;
-    margin-bottom: 100px; 
+    margin-bottom: 50px; 
   }
   
   
@@ -24,7 +26,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 20px;
+    margin-top: 80px;
+    font-weight: normal;
   }
   
   .columna {
@@ -37,6 +40,7 @@
     font-size: 1.5em;
     margin-bottom: 30px;
     padding: 0;
+    font-weight: bold;
   }
   
   .columna p {
