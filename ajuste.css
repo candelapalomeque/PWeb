@@ -1,30 +1,13 @@
-  /* Estilo para adaptar el contenedor principal */
-  .container {
-    max-width: 828px;
-    margin: 0 auto;
-    padding: 20px;
+@media only screen and (max-width: 375px) {
+    .header, .banner, .carousel, .nosotros, .foto, .comidas, .contacto, .horarios, .suscripcion, .footer {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
   }
   
-  /* Estilo para adaptar el banner */
-  #banner {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* Estilo para adaptar el carrusel */
-  #carousel {
-    max-width: 100%;
-  }
-
-  /* Estilo para adaptar las columnas */
-  .columnas {
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  /* Estilo para adaptar las columnas individuales */
-  .columna {
-    width: 100%;
-    max-width: 100%;
-  }
