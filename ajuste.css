@@ -1,0 +1,30 @@
+  /* Estilo para adaptar el contenedor principal */
+  .container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Estilo para adaptar el banner */
+  #banner {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Estilo para adaptar el carrusel */
+  #carousel {
+    max-width: 100%;
+  }
+
+  /* Estilo para adaptar las columnas */
+  .columnas {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Estilo para adaptar las columnas individuales */
+  .columna {
+    width: 100%;
+    max-width: 100%;
+  }
