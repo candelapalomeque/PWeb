@@ -1,73 +1,85 @@
 header {
-    background-color: white;
-    font-family: 'Roboto Mono', monospace;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-left: 20px;
-  }
-  
-  .login-btn {
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 20px;
-  }
-  
-  .header-bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-  }
-  
-  hr {
-    width: 100%;
-    height: 2px;
-    border: none;
-    background-color: #000;
-  }
-  
+  background-color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+hr {
+  width: 100%;
+  height: 2px;
+  border: none;
+  background-color: #000;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav-buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: transparent;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.nav-buttons a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
   .nav-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-top: 0;
   }
   
   .nav-buttons a {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-right: 10px;
-    background-color: transparent;
-    color: #000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 0.7rem;
-    font-weight: bold;
-    cursor: pointer;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    font-size: 0.9rem;
   }
-  
-  .nav-buttons a:hover {
-    background-color: #000;
-    color: #fff;
-  }
-  
+}
