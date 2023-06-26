@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="contacto.css">
   <link rel="stylesheet" href="horarios.css">
   <link rel="stylesheet" href="suscripcion.css">
+  <link rel="stylesheet" href="calculadora.css">
   <link rel="stylesheet" href="footer.css">
 
     </head>
@@ -50,7 +51,7 @@
             <h2>El Goloso</h2>
             <p>Verdaderos clásicos</p>
         </div>
-        
+
         <div class="flip-clock">
           <h1 class="title">El tour de El Goloso</h1>
           <div class="digit" id="days">00</div>
@@ -153,6 +154,24 @@
           <button type="submit">Suscribirse</button>
         </form>
       </div>
+      
+      <h1>¿Cuántos años de vida te quedan goloso?</h1>
+      <form id="calculator-form">
+        <label for="bodegones">Cantidad de Bodegones:</label>
+        <input type="number" id="bodegones" min="0"><br><br>
+    
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" min="0"><br><br>
+    
+        <label for="fanatico">Nivel de Fanatismo (1-10):</label>
+        <input type="number" id="fanatico" min="1" max="10"><br><br>
+    
+        <button type="button" onclick="calcular()">Calcular</button>
+      </form>
+    
+      <div id="resultado"></div>
+    
+      <script src="calculadora.js"></script>
       
           
     </main> 
