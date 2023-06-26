@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 26px;
+  }
+  
+  .flip-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .digit {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    background-color: #e6e2e2af;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 5px;
+    margin-bottom: 50px;
+  }
+  
+  .separator {
+    font-size: 48px;
+    font-weight: bold;
+    color: gray;
+    margin: 0 2px;
+  }
+  
