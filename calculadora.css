@@ -1,44 +1,37 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+.calculator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
   }
   
   h1 {
-    color: #FF4500;
-    font-size: 25px;
+    color: #333;
     text-align: center;
-    margin-bottom: 50px;
+    font-family: Arial, sans-serif;
   }
   
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  label {
-    margin-bottom: 5px;
+  .calculator label,
+  .calculator input {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
   }
   
   button {
     padding: 10px 20px;
-    background-color: #FF4500;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
   }
   
   #resultado {
-    margin-top: 50px;
+    margin-top: 20px;
     font-weight: bold;
-    font-size: 48px;
     text-align: center;
+    font-size: 35px;
   }
   
